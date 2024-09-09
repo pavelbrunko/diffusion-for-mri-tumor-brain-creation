@@ -1,0 +1,1 @@
+/home/vshilonosov/miniconda3/envs/myenv/bin/python3 ../train.py --with_condition --plot_on_save --inputfolder ../dataset/whole_head/mask/ --targetfolder ../dataset/whole_head/image/ --batchsize 1 --epochs 1000 --input_size 128 --num_channels 64 --num_res_blocks 1 --timesteps 250 --save_and_sample_every 10 --resume_weight '' --dimentions 2
